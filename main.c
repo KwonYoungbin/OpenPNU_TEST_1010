@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 int main(void){
-	int a = 100;
-	int b = 33;
-	printf("Hello world!!");
+	int a = 2;
+	int b = 1;
+	printf("Hello world!!\n");
 	printf("a - b = %d",(a-b));
+	printf("a + 2b = %d", (a+(2*b));
 	return 0;
 }
 
